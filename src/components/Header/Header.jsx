@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+
 import Profile from '../../assets/images/profile.png'
 const Header = () => {
   return (
@@ -11,8 +11,6 @@ const Header = () => {
   )
 }
 
-Header.propTypes = {
- Profile: PropTypes.div
-}
+
 
 export default Header
